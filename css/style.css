@@ -1,0 +1,44 @@
+/***********************TAG SELECTORS***************************/
+body {
+    background-color: #eaf6f6;
+}
+
+hr {
+/* border-style:dotted none none; // same thing */
+    border-style: none;
+    border-top-style: dotted;
+
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+
+ 
+}
+/* Group selector */
+h1,h3{
+    color: #66BFBF;
+}
+
+a{
+    padding-right: 30px;
+}
+
+/*************************CLASS SELECTORS************************/
+/* .NORMIE{
+            }
+*/
+
+/*
+    img:hover {
+    //  :hover is a pseudo class  
+        background-color: red;
+    }
+*/
+
+/*************************ID SELECTORS**************************/
+/* #HEADING{ 
+    // Note: id and class selector are more specific and override the other selectors
+    // id can only have single instance but class can have many and single ele can have multiple classes
+    // some tags has predefined css styles applied by the browser i.e browser default css
+}
+*/
